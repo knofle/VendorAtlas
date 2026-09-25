@@ -5,6 +5,7 @@
 ## Version: 1.12.0
 ## SavedVariables: VendorAtlasDB
 ## IconTexture: Interface\AddOns\VendorAtlas\icon
+## X-Wago-ID: QNl4qxNe
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
