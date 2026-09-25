@@ -1,0 +1,25 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Button name="VendorAtlasPinTemplate" mixin="VendorAtlasPinMixin" virtual="true">
+        <Size x="22" y="22"/>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture parentKey="Ring" file="Interface\CharacterFrame\TempPortraitAlphaMask" setAllPoints="true"/>
+            </Layer>
+            <Layer level="BORDER">
+                <Texture parentKey="Disc" file="Interface\CharacterFrame\TempPortraitAlphaMask">
+                    <Size x="19" y="19"/>
+                    <Anchors><Anchor point="CENTER"/></Anchors>
+                </Texture>
+            </Layer>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Icon" file="Interface\MoneyFrame\UI-GoldIcon">
+                    <Size x="13" y="13"/>
+                    <Anchors><Anchor point="CENTER"/></Anchors>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad method="OnLoad"/>
+        </Scripts>
+    </Button>
+</Ui>

@@ -1,0 +1,24 @@
+## Interface: 16001
+## Title: Vendor Atlas
+## Notes: Records vendor stock as you browse and shows where to buy items on the world map.
+## Author: Knofle
+## Version: 1.12.0
+## SavedVariables: VendorAtlasDB
+## IconTexture: Interface\AddOns\VendorAtlas\icon
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Core.lua
+VendorData.lua
+VerifiedData.lua
+Seed.lua
+Categories.lua
+AutoCategories.lua
+Map.lua
+Pins.xml
+Minimap.lua
+UI.lua
+MinimapButton.lua
